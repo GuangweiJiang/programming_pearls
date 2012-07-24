@@ -1,9 +1,10 @@
 /*
-file name: bitmap_sort.c
-purpose: 使用稀疏矩阵/位图排序。 (programming pearls, 2nd edition, 书中示例)
-		 输入： 一个最多包含n个正整数的文件，每个数都小于n，其中n=10的7次方。文件中无重复数。
-		 输出： 按升序排列输入的整数表。
-		 约束： 最多大约1M的内存空间可用，有充足的磁盘存储空间可用。运行时间最多几分钟，运行时间为10秒就不需要进一步优化。
+file name: bitmap_sort_2way.c
+purpose: 
+	习题5：
+	那个程序员说他有1M的可用空间，但是我们概要描述的代码需要1.25MB的空间。
+	他可以不费力气地索取到额外的空间。如果1MB空间使严格的边界，你会推荐如何处理呢？
+	你的算法运行时间又是多少？
 creator: guangwei jiang
 create time: 2012-03-16
 
