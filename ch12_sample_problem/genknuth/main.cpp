@@ -39,10 +39,16 @@ int main()
 {
 	clock_t start, finish;
 	double duration;
+	unsigned long m, n;
+
+	m = 2;
+	n = 0xffffffff;
+
+	printf("m = 0x%lx, n = 0x%lx\n", m, n);
 
 	start = clock();
 	srand(time(0));
-	genknuth(2, 0xffffffff);
+	genknuth(m, n);
 	finish = clock();
 	duration = (double)(finish - start) / CLOCKS_PER_SEC;
 
