@@ -40,8 +40,8 @@ int randint (int min,int max)
 	int random_val = 0;
 
 	do{
-		random_val = random(max);
-	}while ((random_val < min) || (random_val > max));
+		random_val = random(max) + min;
+	}while (random_val > max);
 
 	return random_val;
 }
