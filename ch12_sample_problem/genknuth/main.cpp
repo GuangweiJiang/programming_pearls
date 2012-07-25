@@ -8,8 +8,9 @@ creator: guangwei jiang
 create time: 2012-07-25
 
 modify history:
+	Guangwei Jiang, 2012-07-25
+	add codes to caculate the duration time.
 */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -36,8 +37,16 @@ void genknuth(unsigned long m, unsigned long n)
 
 int main()
 {
+	clock_t start, finish;
+	double duration;
+
+	start = clock();
 	srand(time(0));
-	genknuth(2, 10);
+	genknuth(2, 0xffffffff);
+	finish = clock();
+	duration = (double)(finish - start) / CLOCKS_PER_SEC;
+
+	printf("\nthe duration is %f seconds\n\n", duration);
 
 	return 0;
 }
