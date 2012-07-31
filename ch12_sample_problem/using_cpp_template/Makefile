@@ -4,4 +4,4 @@ using_cpp_template: using_cpp_template.o
 using_cpp_template.o: using_cpp_template.cpp
 	g++ -c using_cpp_template.cpp
 clean:
-	OBJSrm -f using_cpp_template $(OBJS)
+	rm -f using_cpp_template *.o
