@@ -74,7 +74,7 @@ void print_array(int *array_data, int array_size)
 	{
 		printf("%12d ", array_data[i]);
 
-		if ((i%10 == 0) && (i != 0))
+		if ((i+1)%10 == 0)
 			  printf("\n");
 	}
 
