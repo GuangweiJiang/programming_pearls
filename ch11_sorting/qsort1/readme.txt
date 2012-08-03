@@ -5,6 +5,7 @@ P110
 notes:
 If the test data are random, using "g++ qsort1.cpp",
 when test data is 5,000,000, it costs around 1.30 seconds;
+when test data is 10,000,000, it costs around 2.72 seconds;
 
 If the test data are equal, using "g++ qsort1.cpp", 
 when test data is 50,000, it costs around 6.69 seconds;
