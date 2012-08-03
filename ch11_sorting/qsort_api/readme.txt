@@ -6,6 +6,11 @@ If the test data are random, it costs around 1.16 seconds;
 If the test data are equal, it costs around 0.34 seconds;
 If the test data are increasing, it costs around 0.34 seconds;
 
+Test data is 10,000,000, using "g++ qsort_api.cpp",
+If the test data are random, it costs around 2.44 seconds;
+If the test data are equal, it costs around 0.70 seconds;
+If the test data are increasing, it costs around 0.70 seconds;
+
 **********
 function-qsort
 void qsort ( void * base, size_t num, size_t size, int ( * comparator ) ( const void *, const void * ) );
