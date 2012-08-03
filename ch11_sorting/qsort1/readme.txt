@@ -1,0 +1,26 @@
+P110
+一种简单的快速排序(Quicksort)：
+该算法用到了8.3节的“分治法”，排序数组时，将数组分成两个小部分，然后对它们递归排序。
+
+notes:
+If the test data are random, using "g++ qsort1.cpp",
+when test data is 5,000,000, it costs around 1.30 seconds;
+
+If the test data are equal, using "g++ qsort1.cpp", 
+when test data is 50,000, it costs around 6.69 seconds;
+when test data is 100,000, it costs around 38.70 seconds;
+when test data is 200,000, it has errors "Segmentation fault";
+
+If the test data are increasing, using "g++ qsort1.cpp",
+when test data is 50,000, it costs around 9.67 seconds;
+when test data is 100,000, it costs around 38.67 seconds;
+when test data is 200,000, it has errors "Segmentation fault";
+
+
+**********
+Using API <qsort> to do sorting.
+notes:
+Test data is 5,000,000, using "g++ qsort_api.cpp",
+If the test data are random, it costs around 1.16 seconds;
+If the test data are equal, it costs around 0.34 seconds;
+If the test data are increasing, it costs around 0.34 seconds;
