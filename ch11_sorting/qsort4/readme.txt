@@ -20,7 +20,7 @@ when cut-off is 200, it costs around 14.45 seconds;
 If the test data are equal, test data is 5,000,000, using "g++ qsort4.cpp",
 when cut-off is 20, it costs around 0.47 seconds;
 when cut-off is 200, it costs around 0.36 seconds;
-when cut-off is 200, it costs around 0.33 seconds;
+when cut-off is 1000, it costs around 0.33 seconds;
 
 
 **********
