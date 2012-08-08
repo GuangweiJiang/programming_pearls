@@ -2,11 +2,11 @@
 file name: qsort4.cpp
 purpose: 
 	qsort4 (P114-P115):
-	based on qsort4, enhance 2 features:
+	based on qsort3, enhance 2 features:
 	a. random generate the value of "split flag";
 	b. Introduce "cutoff", and using isort3() to do sorting after qsort4();
 
-	qsort4:
+	qsort3:
 	Using enhanced "quick sorting" algorithm to do sorting from 2 directions (low->high and high->low).
 creator: Guangwei Jiang
 create time: 2012-08-06
