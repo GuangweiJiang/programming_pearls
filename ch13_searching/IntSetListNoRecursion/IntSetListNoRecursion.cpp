@@ -1,7 +1,7 @@
 /*
 file name: IntSetListNoRecursion.cpp
 purpose: 
-	利用链表，实现顺序插入排序(链表insert使用递归函数)。
+	利用链表，实现顺序插入排序(链表insert"不"使用递归函数)。
 creator: guangwei jiang
 create time: 2012-08-09
 
