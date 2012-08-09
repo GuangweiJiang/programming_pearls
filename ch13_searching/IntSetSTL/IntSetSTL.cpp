@@ -1,7 +1,7 @@
 /*
 file name: IntSetSTL.cpp
 purpose: 
-	次算法利用C++标准模板库，用std::set表示集合。
+	利用C++标准模板库的set容器，实现顺序插入排序。
 creator: guangwei jiang
 create time: 2012-08-09
 
