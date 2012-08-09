@@ -1,7 +1,12 @@
 P127-P128
 生成[0, maxval]范围内m个随机整数的有序序列，不允许重复。
-使用c++标准模板中的set容器，来实现。
+使用c++标准模板中的set容器，来实现IntSetSTL。
 
+notes:
+m=50000, n=10000000, Cost time: 0.14 seconds 
+m=100000, n=10000000, Cost time: 0.28 seconds 
+
+**********
 我们将待生成的数据结构称之为InsSet，意指整数集合。
 下面我们将把该接口定义为具有如下公有成员的C++类：
 class IntSetImp {
