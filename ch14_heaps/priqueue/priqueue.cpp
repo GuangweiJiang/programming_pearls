@@ -111,6 +111,7 @@ int main()
 	n = 10000000;
 
 	v = new int[m];
+	srand((int)time(0));
 	for (i = 0; i < m; i++)
 	{
 		v[i] = bigrand()%n;
